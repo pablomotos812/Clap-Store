@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Musical</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f8f8f8;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      background-color: #e9e9e9;
+      margin: 10px 0;
+      padding: 10px;
+      border-left: 5px solid #0077cc;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+
+    form input[type="submit"] {
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    form input[type="submit"]:hover {
+      background-color: #005fa3;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    h2 {
+      color: #0077cc;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tienda Musical</h1>
+    <p>¡Todo lo que necesitas para hacer música!</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre">Sobre Nosotros</a>
+    <a href="#productos">Productos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <!-- INICIO -->
+  <section id="inicio">
+    <h2>Bienvenido a nuestra tienda musical</h2>
+    <p>Ofrecemos una amplia gama de instrumentos musicales, accesorios y equipo profesional para músicos de todos los niveles.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Guitar_shop_1.jpg/640px-Guitar_shop_1.jpg" alt="Tienda musical">
+  </section>
+
+  <!-- SOBRE NOSOTROS -->
+  <section id="sobre">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos una tienda dedicada a la venta de productos musicales desde 2005. Nos apasiona la música y queremos ayudarte a encontrar el instrumento perfecto.</p>
+    <p>Trabajamos con marcas reconocidas y ofrecemos asesoramiento personalizado tanto para principiantes como profesionales.</p>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section id="productos">
+    <h2>Productos Destacados</h2>
+    <ul>
+      <li><strong>Guitarra Acústica Fender FA-125</strong> – $150</li>
+      <li><strong>Teclado Yamaha PSR-E373</strong> – $250</li>
+      <li><strong>Batería Electrónica Alesis Nitro Mesh</strong> – $499</li>
+      <li><strong>Micrófono Shure SM58</strong> – $99</li>
+      <li><strong>Amplificador Marshall MG15G</strong> – $120</li>
+    </ul>
+    <p>Consulta más productos directamente en nuestra tienda física o contáctanos.</p>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>Puedes comunicarte con nosotros mediante el siguiente formulario o por nuestros canales de atención.</p>
+
+    <ul>
+      <li>Email: contacto@tiendamusical.com</li>
+      <li>Teléfono: +34 123 456 789</li>
+      <li>Dirección: Calle Música 123, Ciudad, País</li>
+    </ul>
+
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    &copy; 2025 Tienda Musical. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
+
+
